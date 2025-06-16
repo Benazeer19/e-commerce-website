@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins";
+}
+/* style.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #072019; /* Dark green background */
+    padding: 0 20px;
+    height: 80px;
+}
+
+.navbar .logo h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navmenu ul {
+    display: flex;
+    list-style: none;
+}
+
+.navmenu li {
+    margin-right: 20px;
+}
+
+.navmenu a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+header{
+    background: #e7f0f3ac;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.main-header{
+    width: 75%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-header h5{
+    font-size: 22px;
+    color: #0b910b;
+    font-weight: 550;
+}
+
+.main-header h2{
+    font-size: 48px;
+    width: 340px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.main-header .btn{
+    background-color: #0b910b;
+    border: 1px solid #0b910b;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all .5s;
+}
+
+.main-header .btn:hover{
+    color: #0b910b;
+    background: #ffffff;
+}
+
+.main-header img{
+    width: 400px;
+    height: auto;
+}
+
+
